@@ -5,7 +5,7 @@ app = FastAPI(title="CI/CD ML API")
 
 @app.get("/")
 def read_root():
-    return {"message": "API Modelu Iris (Lab 06) dziala!"}
+    return {"message": "API Modelu Iris dziala"}
 
 @app.get("/metrics")
 def metrics():
